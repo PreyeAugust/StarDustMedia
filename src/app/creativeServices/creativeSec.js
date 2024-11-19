@@ -15,6 +15,13 @@ const creativeSec = () => {
                     {" "}
                     GRAPHIC DESIGN
                   </p>
+                  <p className="pText">
+                    {" "}
+                    We offer a range of graphic design services to bring your
+                    vision to life. From creating illustrations for your
+                    childrens book, logo, to designing engaging marketing
+                    materials.
+                  </p>
                 </div>
               </div>
             </div>
@@ -26,18 +33,31 @@ const creativeSec = () => {
                     {" "}
                     BRANDING
                   </p>
+                  <p className="pText">
+                    {" "}
+                    At StarDust Media We Prioratize helping you develop a strong
+                    and recognizable brand identity for your childrens book, or
+                    educational initiative.
+                  </p>
                 </div>
               </div>
             </div>
 
             {/* third col */}
 
-            <div className="Creative3  py-10 pl-5 text-white rounded-3xl relative h-[480px]  flex items-center">
+            <div className="Creative3 py-10 pl-5 text-white rounded-3xl relative h-[480px]  flex items-center">
               <div>
                 <div data-aos="zoom-in" className="mb-4">
                   <p className="text-4xl xl:text-5xl font-bold mb-2">
                     {" "}
-                    ART & CRAFTS
+                    ARTS & CRAFTS WORKSHOP
+                  </p>
+                
+                  <p className="pText">
+                    {" "}
+                    Also at StarDust Media we take top priority in sparking
+                    childrens creativity with our interactive and educational
+                    arts and crafts workshops.
                   </p>
                 </div>
               </div>
