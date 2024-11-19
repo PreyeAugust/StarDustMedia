@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.logo {
+  width: 100px;
+}
+
+.fiMenu {
+  margin-top: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.span {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-transform: uppercase;
+}
+
+.nav {
+  justify-content: space-around;
+  background-color: #2c540e;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.leftContent {
+  display: inline;
+}
+
+.rightData {
+  z-index: 2;
+}
