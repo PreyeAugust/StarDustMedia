@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import "./Navbar.css";
 
-
+import Logo from "../assets/StarDustLOGO.jpg";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -69,7 +69,8 @@ export default function Navbar() {
       {/* left side  */}
       <section className="leftContent">
         {/* logo */}
-      <img src="../../StarDUstLOGO.jpg" alt="#" className="logo" ></img>
+        <Image src={Logo} alt="logo" className="logo" />
+
         {/* navitems */}
       </section>
 
