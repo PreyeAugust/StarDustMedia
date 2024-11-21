@@ -5,7 +5,6 @@ import React from "react";
 
 import ServiceHero from "@/app/services/serviceHero";
 import ServiceSec2 from "@/app/services/serviceSec2";
-import ServiceSec3 from "@/app/services/serviceSec3";
 
 const Navbar = dynamic(() => import("@/components/Navbar"), {
   ssr: false,
@@ -21,7 +20,6 @@ export default function page() {
       <Navbar />
       <ServiceHero />
       <ServiceSec2 />
-      <ServiceSec3 />
 
       <Footer />
     </div>
