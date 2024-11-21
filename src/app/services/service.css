@@ -9,9 +9,11 @@
 }
 
 #service-section {
+  margin: 0;
+  padding: 0;
   min-height: 740px;
   width: 100%;
-  background: #004D40;
+  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +34,7 @@
   left: -30px;
   height: 0px;
   width: 0px;
-  border-top: 20px solid #FFD700;
+  border-top: 20px solid #ffd700;
   border-left: 20px solid #ffffff;
 }
 
@@ -43,7 +45,7 @@
   right: -30px;
   height: 0px;
   width: 0px;
-  border-top: 20px solid #FFD700;
+  border-top: 20px solid #ffd700;
   border-right: 20px solid #004d40;
 }
 
@@ -76,7 +78,7 @@
   top: 0;
   left: 0;
   border-radius: 10px;
-  background: #FFD700 ;
+  background: #ffd700;
 
   transform: rotate(0deg);
   z-index: -1;
@@ -124,7 +126,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.cards .card .Icon{
+.cards .card .Icon {
   font-size: 2.5rem;
   color: #ffffff;
   margin-top: 40px;
@@ -140,9 +142,6 @@
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
-
-
 
 @media screen and (max-width: 500px) {
   .Service2C {
@@ -160,7 +159,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .cards .card{
+  .cards .card {
     height: 300px;
     width: 400px;
     margin: 20px 0;
@@ -168,11 +167,11 @@
 }
 
 @media screen and (max-width: 1100px) {
-  #service h2{
+  #service h2 {
     margin-top: 30px;
   }
 
-  .cards{
-    grid-template-columns: repeat(1,1fr);
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
