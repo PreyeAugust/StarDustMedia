@@ -8,6 +8,99 @@
   transition: 0.2s linear;
 }
 
+#service-section {
+  min-height: 740px;
+  width: 100%;
+  background: #004D40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#service-section h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#service-section h2::after {
+  position: absolute;
+  content: " ";
+  top: 30%;
+  left: -30px;
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid #FFD700;
+  border-left: 20px solid #ffffff;
+}
+
+#service-section h2::before {
+  position: absolute;
+  content: " ";
+  top: 30px;
+  right: -30px;
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid #FFD700;
+  border-right: 20px solid #004d40;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  z-index: 3;
+  margin-top: 20px;
+}
+
+.cards .card {
+  height: 280px;
+  width: 38 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 8%;
+  background: rgb(65, 62, 105);
+  position: relative;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.cards .card::before {
+  position: absolute;
+  content: " ";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: #FFD700 ;
+
+  transform: rotate(0deg);
+  z-index: -1;
+}
+
+.cards .card:hover.card::before {
+  transform: rotate(10deg);
+}
+
+.cards .card h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.cards .card .content p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
 .serviceContainer {
   position: relative;
   height: 100vh;
@@ -31,6 +124,14 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.cards .card .Icon{
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .serviceContainer h1 {
   position: relative;
   z-index: 1;
@@ -40,60 +141,8 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.serviceH2 {
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 600;
-}
 
-.serviceP {
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 300;
-}
 
-.serviceSpan {
-  font-size: 18px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 300;
-}
-
-.ServiceCon {
-  margin-top: 4rem;
-}
-
-.ServiceCon3 {
-  margin-top: 4rem;
-}
-
-.service2ndCol {
-  background: url(../../assets//AboutJPEG2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.service2ndCol2 {
-  background: url(../../assets/AboutJPEG1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.service3rdCol1 {
-  background: url(../../assets/chuttersnap.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.cards .card .Icon{
-  font-size: 2.5rem;
-  color: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  text-align: center;
-}
 
 @media screen and (max-width: 500px) {
   .Service2C {
@@ -107,5 +156,23 @@
 @media screen and (min-width: 840px) {
   .ServiceCon {
     margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards .card{
+    height: 300px;
+    width: 400px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #service h2{
+    margin-top: 30px;
+  }
+
+  .cards{
+    grid-template-columns: repeat(1,1fr);
   }
 }

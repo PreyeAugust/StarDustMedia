@@ -1,91 +1,67 @@
 import React from "react";
 import "./service.css";
+import { FaBook } from "react-icons/fa";
+import { GiLaurelsTrophy } from "react-icons/gi";
+import { FaAngrycreative } from "react-icons/fa";
+import { SiBrandfolder } from "react-icons/si";
+import { RiContractLine } from "react-icons/ri";
 
 export default function serviceSec2() {
   return (
-    <div className="py-8 ">
-      <div className="container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div>
+      <div id="service-section">
+        <h2>Our Services</h2>
 
-          {/* first col */}
-
-          <div className="sm:col-span-2 py-10 pl-5 text-black rounded-3xl relative h-[680px]  flex items-start Service2C">
-            <div>
-              <div data-aos="zoom-in" className="mb-4">
-                <p className="text-4xl xl:text-5xl font-bold mb-2">
-                  {" "}
-                  Educational Comic Books:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  Explore our collection of engaging and educational comic
-                  books, like
-                </p>
-                <p className="text-2xl font-semibold mb-[2px]">
-                  {" "}
-                  The Patriot Kids:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  Teaches children about citizenship and civic responsibility.
-                </p>
-                <p className="text-2xl font-semibold mb-[2px]">
-                  {" "}
-                  The Young Emeralds:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  Promotes environmental awareness and sustainability
-                </p>
-                <p className="text-2xl font-semibold mb-[2px]">
-                  {" "}
-                  Giving Peace a Chance:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  Encourages conflict resolution and peaceful solutions
-                </p>
-                <p className="text-2xl font-semibold mb-[2px]">
-                  {" "}
-                  Reward of Savings:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  Introduces children to financial literacy concepts.
-                </p>
-                <p className="text-2xl font-semibold mb-[2px]">
-                  {" "}
-                  Nkem Learns About Vat:
-                </p>
-                <p className="mb-[3px] text-600">
-                  {" "}
-                  its importance in nation-building, and real-world examples of
-                  how VAT works.
-                </p>
-              </div>
+        <div className="cards">
+          <div className="card">
+            <FaBook className="Icon" />
+            <div className="content">
+              <h3>Educational Publishing</h3>
+              <p>Educational Comic Books</p>
+              <p>Custom Book Designs</p>
+              <p>Premium Printing</p>
             </div>
           </div>
 
-
-
-
-
-          {/* second col */}
-          <div className=" py-10 pl-5 text-black rounded-3xl relative h-[480px]  flex items-end service2ndCol">
-            <div>
-              <div data-aos="zoom-in" className="mb-4">
-              </div>
-            </div>
-          </div>
-          {/* third col */}
-          <div className=" py-10 pl-5 text-black rounded-3xl relative h-[480px]   flex items-end service2ndCol2">
-            <div>
-              <div data-aos="zoom-in" className="mb-4">
-              </div>
+          <div className="card">
+            <GiLaurelsTrophy className="Icon" />
+            <div className="content">
+              <h3>Event Planning & Management</h3>
+              <p>Childrens Events</p>
+              <p>Festival & Carnival</p>
+              <p>Event Consultancy/Management</p>
             </div>
           </div>
 
-        
+          <div className="card">
+            <FaAngrycreative className="Icon" />
+            <div className="content">
+              <h3>Creative Services</h3>
+              <p>Book Reading Club</p>
+              <p>Branding & Strategy</p>
+              <p>Multimedia</p>
+            </div>
+          </div>
+
+          <div className="card">
+            <SiBrandfolder className="Icon" />
+            <div className="content">
+              <h3>Consultancy Branding</h3>
+              <p>Business Development</p>
+              <p>Marketing and PR</p>
+              <p>Educational Consultancy</p>
+            </div>
+          </div>
+
+          <div className="card">
+            <RiContractLine className="Icon" />
+            <div className="content">
+              <h3>General Contract</h3>
+              <p>Project Management</p>
+              <p>Procurement</p>
+              <p>Quality Assurance</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
