@@ -42,7 +42,7 @@ export default function contactSec2() {
                         />
                       </svg>
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        +234 706 486 4040
+                        +234 706 486 4040 <br /> +234 803 467 6736
                       </h5>
                     </a>
                     <a href="javascript:;" className="flex items-center mb-6">

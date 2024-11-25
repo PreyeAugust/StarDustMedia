@@ -6,7 +6,7 @@ import React from "react";
 import HeroSectionAbout from "@/app/about/heroSectionAbout";
 import AboutSec1 from "@/app/about/aboutSec1";
 import AboutSec2 from "@/app/about/aboutSec2";
-
+import AboutSec3 from "@/app/about/AboutSec3";
 
 const Navbar = dynamic(() => import("@/components/Navbar"), {
   ssr: false,
@@ -17,18 +17,20 @@ const Footer = dynamic(() => import("@/components/Footer"), {
 });
 
 const AboutSec1Data = {
-  discount:
-    "Stardust Media & Comics is a dynamic publishing house dedicated to inspiring and educating young minds through captivating storytelling. Founded by Queen Irene Onwuka, our mission is to empower children with knowledge, imagination, and a lifelong love of learning. We believe in the transfomative power of stories and strive to create a positive impact on society through engaging and educational content",
-  title: "Why Choose Stardust Media & Comics",
-  date: "We differentiate ourselves through:",
+  discount: "Stardust Media & Comics",
+  discount2: "Our Story",
+  discount3:
+    "Stardust Media is a dynamic creative agency dedicated to inspiring young minds and empowering individuals through innovative solutions and captivating storytelling. Founded by the visionary Queen Irene Onwuka, our mission is to create a positive impact on society by providing high-quality educational and entertainment content.",
+  title:
+    "Stardust Comics, a subsidiary of Stardust Media, is a comic book company involved in leisure storytelling, publishing, and distribution. We create engaging and educational comic books that inspire young readers and spark their imaginations. ",
+  date: "Our Vision",
   title2:
-    "Engaging Educational Content: Our comics and books seamlessly blend entertainment with learning, ensuring children retain information while having fun.",
-  title3:
-    "Customization and Personalization: We offer tailored solutions, from custom comic books to themed events, to meet your specific needs.",
+    "To be a global leader in creative media, education, and entertainment, pushing the boundaries of creativity and inspiring audiences worldwide.",
+  title3: "Our Mission",
   title4:
-    "Commitment to Quality: We deliver exceptional products and services with a focus on high-quality content, design, and production",
-  title5:
-    "Positive Social Impact: We are dedicated to making a positive difference in the lives of children by promoting literacy, education, and social values.",
+    "To empower young minds through captivating storytelling and innovative solutions. We strive to create a positive impact on society by providing high-quality educational and entertainment content",
+  title5: "Our Values",
+  title6: "Innovation Quality Social Impact Client Satisfaction",
   bgColor: "#2c540e",
 };
 
@@ -39,7 +41,8 @@ export default function page() {
       <HeroSectionAbout />
       <AboutSec1 data={AboutSec1Data} />
       <AboutSec2 />
-
+      <AboutSec3 />
+      <br />
       <Footer />
     </div>
   );

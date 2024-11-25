@@ -1,12 +1,9 @@
 import React from "react";
 import "./about.css";
 import Image from "next/image";
-
-;
+import Img1 from "@/assets/aboutSec.jpg";
 
 const aboutSec1 = ({ data }) => {
-
-
   return (
     <div className="min-h-[550px] flex justify-center items-center py-12 overAll">
       <div className="aboutContainer">
@@ -18,42 +15,47 @@ const aboutSec1 = ({ data }) => {
           <div className="p-6 sm:p-8">
             <p data-aos="slide-right" className="AboutFirstP">
               {data.discount}
+              <br />
             </p>
+            <span data-aos="zoom-out" className="discount2">
+              {data.discount2}
+            </span>
+            <span data-aos="zoom-out" className="discount3">
+              <br />
+              <br />
+              {data.discount3}
+            </span>
             <br />
-            <h1
-              data-aos="zoom-out"
-              className="uppercase AboutFirstH1 font-bold"
-            >
+            <br />
+            <span data-aos="zoom-out" className=" AboutTitle">
               {data.title}
-            </h1>{" "}
-            <br />
-            <p data-aos="fade-up" className="AboutFirstP2 uppercase">
-              {data.date}
-            </p>
+            </span>{" "}
           </div>
 
           {/* second col */}
           <div data-aos="zoom-in" className="h-full flex items-center">
             <Image
-              src={data.Image}
+              src={Img1}
+              width={220}
               alt=""
               className="scale-125 w-[220px] md:w-[240px] mx-auto drop-shadow-2xl object-cover rounded-3xl"
             />
           </div>
           {/* third col */}
           <div className="flex flex-col justify-center gap-4 p-6 sm:p-8">
-            <p data-aos="zoom-out" className="titles font-bold">
+            <p data-aos="fade-up" className="dateP font-bold uppercase">
+              {data.date}
+            </p>
+            <p data-aos="zoom-out" className="title2">
               {data.title2}
             </p>
-            <p data-aos="fade-up" className="titles font-bold">
+            <p data-aos="fade-up" className="title3 uppercase font-bold">
               {data.title3}
             </p>
-            <p data-aos="fade-up" className="titles font-bold">
+            <p data-aos="fade-up" className="title4">
               {data.title4}
             </p>
-            <p data-aos="fade-up" className="titles font-bold">
-              {data.title5}
-            </p>
+          
             <div data-aos="fade-up" data-aos-offset="0">
               <a
                 href="#"

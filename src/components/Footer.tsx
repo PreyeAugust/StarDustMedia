@@ -154,25 +154,25 @@ export default function Footer() {
                 {/* Social Links */}
                 <div className="flex items-center gap-3 mt-6">
                   <a
-                    href=""
-                    className="text-3xl
-                    hover:text-primary duration-300"
+                    href="https://www.instagram.com/stardustcomics_/profilecard/?igsh=MW41emxmdG8zaWNnbQ=="
+                    className="FSocial-Icons text-3xl
+                     duration-300"
                   >
                     <FaInstagram />
                   </a>
 
                   <a
-                    href=""
-                    className="text-3xl
-                    hover:text-primary duration-300"
+                    href="https://www.facebook.com/profile.php?id=100064957662453&mibextid=LQQJ4d"
+                    className="FSocial-Icons text-3xl
+                   duration-300"
                   >
                     <FaFacebook />
                   </a>
 
                   <a
                     href=""
-                    className="text-3xl
-                    hover:text-primary duration-300"
+                    className="FSocial-Icons text-3xl
+                     duration-300"
                   >
                     <FaLinkedin />
                   </a>

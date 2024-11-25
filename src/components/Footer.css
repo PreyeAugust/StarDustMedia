@@ -1,11 +1,15 @@
-.footer{
-    background: #2c540e;
+.footer {
+  background: #2c540e;
 }
 
-.footer-text{
-    color: white;
+.footer-text {
+  color: white;
 }
 
-.footer-Link{
-    background: black;
+.footer-Link {
+  background: black;
+}
+
+.FSocial-Icons:hover {
+  color: #ffd700;
 }

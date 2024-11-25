@@ -30,7 +30,7 @@ const Section3Data = {
   title3: "Of Innovative",
   title4:
     "& Educational Media for Children Shaping a brighter Future Through The Power Of Storytelling",
-  bgColor: "#f42c37",
+  bgColor: "#ffd700",
 };
 
 const Section3Data2 = {

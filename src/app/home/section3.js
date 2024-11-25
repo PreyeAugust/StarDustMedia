@@ -39,7 +39,7 @@ export default function section3({ data }) {
             <p data-aos="zoom-out" className="font-bold text-xl">
               {data.title2}
             </p>
-            <p data-aos="fade-up" className="text-3xl sm:text-5xl font-bold">
+            <p data-aos="fade-up" className="text-3xl sm:text-3xl font-bold">
               {data.title3}
             </p>
             <p data-aos="fade-up" className="text-sm tracking-wide leading-5">
