@@ -1,202 +1,99 @@
-/** @format */
-"use client";
-
-import Image from "next/image";
-import { useState } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 import "./Navbar.css";
+import Img1 from "@/../public/StarDustLOGO.jpg";
 
-import Logo from "../assets/StarDustLOGO.jpg";
-import Link from "next/link";
-import { IoIosArrowDown } from "react-icons/io";
 
-import { FiMenu } from "react-icons/fi";
-import { AiOutlineClose } from "react-icons/ai";
-import { useAutoAnimate } from "@formkit/auto-animate/react";
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const [color, setColor] = useState('transparent');
+  const [textColor, setTextColor] = useState('white');
 
-type NavItem = {
-  label: string;
-  link?: string;
-  children?: NavItem[];
-  iconImage?: string;
-};
+  const handleNav = () => {
+    setNav(!nav);
+  };
 
-const navItems: NavItem[] = [
-  {
-    label: "HOME",
-    link: "/home",
-  },
-  {
-    label: "ABOUT",
-    link: "/about",
-    //children: [
-    //  {
-    //    label: "Mindset",
-    //  link: "/mindset",
-  },
-  {
-    label: "SERVICE",
-    link: "/services",
-    children: [
-      {
-        label: "CREATIVE SERVICES",
-        link: "/creativeServices",
-      },
-    ],
-  },
-  {
-    label: "PRODUCTS",
-    link: "/products ",
-  },
-  {
-    label: "CONTACT US",
-    link: "/contactUs",
-  },
-];
-
-export default function Navbar() {
-  const [animationParent] = useAutoAnimate();
-  const [isSideMenuOpen, setSideMenue] = useState(false);
-  function openSideMenu() {
-    setSideMenue(true);
-  }
-  function closeSideMenu() {
-    setSideMenue(false);
-  }
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor('#004D40');
+        setTextColor('#000000');
+      } else {
+        setColor('transparent');
+        setTextColor('#ffffff');
+      }
+    };
+    window.addEventListener('scroll', changeColor);
+  }, []);
 
   return (
-    <div className="nav mx-auto flex  w-full text-sm">
-      {/* left side  */}
-      <section className="leftContent">
-        {/* logo */}
-        <Image src={Logo} alt="logo" className="logo" />
+    <div
+      style={{ backgroundColor: `${color}` }}
+      className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
+    >
+      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <Link href='/'>
+         <Image src={Img1} className='logo' alt='' />
+        </Link>
+        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+          <li className='p-4'>
+            <Link href='/home'>HOME</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/about'>ABOUT US</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/service'>SERVICES</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/creativeServices'>CREATIVE</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/products'>PRODUCTS</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/contactUs'>CONTACT</Link>
+            
+          </li>
+        </ul>
 
-        {/* navitems */}
-      </section>
-
-      {/* right side data */}
-      <section
-        ref={animationParent}
-        className="rightData md:flex items-center gap-8 "
-      >
-        {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
-        <div className="hidden md:flex items-center gap-4 transition-all">
-          {navItems.map((d, i) => (
-            <Link
-              key={i}
-              href={d.link ?? "#"}
-              className="relative group  px-2 py-3 transition-all "
-            >
-              <p className="flex cursor-pointer items-center gap-2 text-neutral-400 group-hover:text-black ">
-                <span>{d.label}</span>
-                {d.children && (
-                  <IoIosArrowDown className=" rotate-180  transition-all group-hover:rotate-0" />
-                )}
-              </p>
-
-              {/* dropdown */}
-              {d.children && (
-                <div className="absolute   right-0   top-10 hidden w-auto  flex-col gap-1   rounded-lg bg-white py-3 shadow-md  transition-all group-hover:flex ">
-                  {d.children.map((ch, i) => (
-                    <Link
-                      key={i}
-                      href={ch.link ?? "#"}
-                      className=" flex cursor-pointer items-center  py-1 pl-6 pr-8  text-neutral-400 hover:text-black  "
-                    >
-                      {/* image */}
-                      {ch.iconImage && (
-                        <Image src={ch.iconImage} alt="item-icon" />
-                      )}
-                      {/* item */}
-                      <span className="whitespace-nowrap   pl-3 ">
-                        {ch.label}
-                      </span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </Link>
-          ))}
+        {/* Mobile Button */}
+        <div onClick={handleNav} className='block sm:hidden z-10'>
+          {nav ? (
+            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+          ) : (
+            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+          )}
         </div>
-      </section>
-
-      <FiMenu
-        onClick={openSideMenu}
-        className="cursor-pointer text-4xl md:hidden fiMenu"
-      />
-    </div>
-  );
-}
-
-function MobileNav({ closeSideMenu }: { closeSideMenu: () => void }) {
-  return (
-    <div className="fixed left-0 top-0 flex h-full min-h-screen w-full justify-end bg-black/60 md:hidden">
-      <div className=" h-full w-[65%] bg-white px-4 py-4">
-        <section className="flex justify-end">
-          <AiOutlineClose
-            onClick={closeSideMenu}
-            className="cursor-pointer text-4xl "
-          />
-        </section>
-        <div className=" flex flex-col text-base  gap-2 transition-all">
-          {navItems.map((d, i) => (
-            <SingleNavItem
-              key={i}
-              label={d.label}
-              iconImage={d.iconImage}
-              link={d.link}
-            >
-              {d.children}
-            </SingleNavItem>
-          ))}
+        {/* Mobile Menu */}
+        <div
+          className={
+            nav
+              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+          }
+        >
+          <ul>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/'>Home</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/#gallery'>Gallery</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/work'>Work</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/contact'>Contact</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   );
-}
+};
 
-function SingleNavItem(d: NavItem) {
-  const [animationParent] = useAutoAnimate();
-  const [isItemOpen, setItem] = useState(false);
-
-  function toggleItem() {
-    return setItem(!isItemOpen);
-  }
-
-  return (
-    <Link
-      ref={animationParent}
-      onClick={toggleItem}
-      href={d.link ?? "#"}
-      className="relative   px-2 py-3 transition-all "
-    >
-      <p className="flex cursor-pointer items-center gap-2 text-neutral-400 group-hover:text-black ">
-        <span>{d.label}</span>
-        {d.children && (
-          // rotate-180
-          <IoIosArrowDown
-            className={`text-xs transition-all  ${isItemOpen && " rotate-180"}`}
-          />
-        )}
-      </p>
-
-      {/* dropdown */}
-      {isItemOpen && d.children && (
-        <div className="  w-auto  flex-col gap-1   rounded-lg bg-white py-3   transition-all flex ">
-          {d.children.map((ch, i) => (
-            <Link
-              key={i}
-              href={ch.link ?? "#"}
-              className=" flex cursor-pointer items-center  py-1 pl-6 pr-8  text-neutral-400 hover:text-black  "
-            >
-              {/* image */}
-              {ch.iconImage && <Image src={ch.iconImage} alt="item-icon" />}
-              {/* item */}
-              <span className="whitespace-nowrap   pl-3 ">{ch.label}</span>
-            </Link>
-          ))}
-        </div>
-      )}
-    </Link>
-  );
-}
+export default Navbar;

@@ -6,10 +6,13 @@ export default function heroSection() {
   return (
     <main className="main">
       <div className="contents">
-        <h1>Imagination to reality</h1>
+        <h1>imagination to reality</h1>
         <div className="buttons">
           <a href="/products">
-            <button>Products</button>
+            <button>our work</button>
+          </a>
+          <a href="/about">
+            <button>our Story</button>
           </a>
         </div>
       </div>
