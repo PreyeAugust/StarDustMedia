@@ -11,7 +11,7 @@
 .heroAboutContainer {
   position: relative;
   height: 100vh;
-  background-image: url(../../assets/AboutJPEG.jpg);
+  background-image: url(../../../public/QueenAbout.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -128,4 +128,8 @@
 .about2ps {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   letter-spacing: 2px;
+}
+
+.AboutValueIMG {
+ z-index: 0;
 }
