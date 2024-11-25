@@ -12,12 +12,14 @@ const AboutSec3 = () => {
   const [activeImage, setActiveImage] = useState(0);
 
   const clickNext = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     activeImage === images.length - 1
       ? setActiveImage(0)
       : setActiveImage(activeImage + 1);
   };
 
   const clickPrev = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     activeImage === 0
       ? setActiveImage(images.length - 1)
       : setActiveImage(activeImage - 1);
@@ -30,7 +32,7 @@ const AboutSec3 = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, [activeImage]);
+  });
 
   return (
     

@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 type Props = {
-  activeImage: any;
-  clickNext: any;
-  clickPrev: any;
+  activeImage: undefined;
+  clickNext: undefined;
+  clickPrev: undefined;
 };
 
 const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
