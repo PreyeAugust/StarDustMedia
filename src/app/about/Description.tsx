@@ -1,9 +1,9 @@
 import React from "react";
 import { images } from "./constants";
-import left from "../../../public/left-arrow-svgrepo-com .svg";
-import right from "@/../public/right-arrow-svgrepo-com.svg";
+import { FaChevronLeft } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Image from "next/image";
+
 
 import "./about.css";
 
@@ -58,14 +58,14 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
               className="absolute bottom-2 right-10 cursor-pointer"
               onClick={clickPrev}
             >
-              <Image src={left} alt="" className="descImg" />
+              <FaChevronLeft />
             </div>
 
             <div
               className="absolute bottom-2 right-2 cursor-pointer"
               onClick={clickNext}
             >
-              <Image src={right} alt="" className="descImg" />
+              <FaChevronRight width={20} height={20} />
             </div>
           </div>
         </div>
