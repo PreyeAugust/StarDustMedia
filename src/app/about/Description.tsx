@@ -1,6 +1,6 @@
 import React from "react";
 import { images } from "./constants";
-import left from "@/../public/left-arrow-svgrepo-com .svg";
+import left from "../../../public/left-arrow-svgrepo-com .svg";
 import right from "@/../public/right-arrow-svgrepo-com.svg";
 import { motion } from "framer-motion";
 import Image from "next/image";
