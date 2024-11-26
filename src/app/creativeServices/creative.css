@@ -1,3 +1,7 @@
+body {
+  overflow-x: clip;
+}
+
 .creativeContainer {
   position: relative;
   height: 100vh;

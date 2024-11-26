@@ -6,7 +6,7 @@ export default function section1() {
   return (
     <div className="py-8 firstCon">
       <div className="container">
-        <h1 data-aos="zoom-out" className="helo">
+        <h1 data-aos="zoom-out" className="sec1 font-serif text-black">
           Featured Products
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

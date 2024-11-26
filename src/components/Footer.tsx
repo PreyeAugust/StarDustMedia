@@ -6,34 +6,33 @@ import "./Footer.css";
 import Image from "next/image";
 import Img1 from "@/assets/StarDustLOGO.jpg";
 
-
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font footer">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+            <h2 className="text-white font-serif uppercase title-font tracking-widest text-lg font-bold mb-3">
               Quicklinks
             </h2>
             <nav className="list-none mb-10 font-serif">
               <li>
                 <a
                   href="/home"
-                  className="text-gray-900 hover:text-gray-800 font-serif"
+                  className="text-white hover:text-gray-800"
                 >
                   HOME
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-gray-800 hover:text-gray-800">
+                <a href="/about" className="text-white hover:text-gray-800">
                   ABOUT
                 </a>
               </li>
               <li>
                 <a
                   href="/services"
-                  className="text-gray-800 hover:text-gray-800"
+                  className="text-white hover:text-gray-800"
                 >
                   SERVICES
                 </a>
@@ -41,7 +40,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/products"
-                  className="text-gray-800 hover:text-gray-800"
+                  className="text-white hover:text-gray-800"
                 >
                   PRODUCTS
                 </a>
@@ -49,7 +48,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/contactUs"
-                  className="text-gray-800 hover:text-gray-800"
+                  className="text-white hover:text-gray-800"
                 >
                   CONTACT
                 </a>
@@ -57,41 +56,41 @@ export default function Footer() {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+            <h2 className="text-white font-serif uppercase title-font  tracking-widest text-lg font-bold mb-3">
               Address
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-black hover:text-gray-800 font-serif">
+                <a className="text-white hover:text-gray-800 font-serif">
                   No.8 Abdulahhi Ibrahim St, Utako Abuja.
                 </a>
               </li>
               <li>
-                <a className="text-black hover:text-gray-800 font-serif">
+                <a className="text-white hover:text-gray-800 font-serif">
                   +234 706 486 4040
                 </a>
               </li>
               <li>
-                <a className="text-black hover:text-gray-800">
+                <a className="text-white hover:text-gray-800">
                   +234 803 467 6736
                 </a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+            <h2 className="font-serif uppercase title-font text-white tracking-widest text-lg font-bold mb-3">
               email us
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="uppercase font-serif text-gray-900 hover:text-gray-800">
-                  stardustcomicsmedia@gmail.com
+                <a className=" font-serif text-white hover:text-gray-800">
+                  Stardustcomicsmedia@gmail.com
                 </a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font text-lg text-black font-serif font-bold tracking-widest mb-3">
+            <h2 className="title-font text-lg text-white font-serif font-bold tracking-widest mb-3">
               SUBSCRIBE
             </h2>
             <form
@@ -100,7 +99,9 @@ export default function Footer() {
               className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
             >
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-                <label className="leading-7 text-md font-serif text-black">Email</label>
+                <label className="leading-7 text-md font-serif text-white">
+                  Email
+                </label>
                 <input
                   type="text"
                   id="footer-field"
@@ -110,12 +111,12 @@ export default function Footer() {
               </div>
               <button
                 type="submit"
-                className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-black shadow-sm"
+                className="font-serif w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-black shadow-sm"
               >
                 Send
               </button>
             </form>
-            <p className="text-black font-serif text-sm mt-2 md:text-left text-center">
+            <p className="text-white font-serif text-sm mt-2 md:text-left text-center">
               STARDUST MEDIA & COMICS
             </p>
           </div>
@@ -125,14 +126,14 @@ export default function Footer() {
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image src={Img1} alt="" className="footerImg" />
-            <span className="ml-3 text-xl font-serif uppercase">Stardust</span>
+            <span className="ml-3 text-xl font-serif text-white uppercase">Stardust</span>
           </a>
-          <p className="text-sm font-serif  text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-sm font-serif  text-white sm:ml-6 sm:mt-0 mt-4">
             © 2024 STARDUST MEDIA & COMICS
             <a
-              href="https://twitter.com/knyttneve"
+              href="/home"
               rel="noopener noreferrer"
-              className="text-gray-600 ml-1"
+              className="text-white ml-1"
               target="_blank"
             ></a>
           </p>
@@ -142,7 +143,7 @@ export default function Footer() {
               className="text-gray-500"
             >
               <svg
-                fill="currentColor"
+                fill="white"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
@@ -157,7 +158,7 @@ export default function Footer() {
               className="ml-3 text-gray-500"
             >
               <svg
-                fill="none"
+                fill="white"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -171,7 +172,7 @@ export default function Footer() {
             </a>
             <a className="ml-3 text-gray-500">
               <svg
-                fill="currentColor"
+                fill="white"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"

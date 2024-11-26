@@ -1,11 +1,12 @@
-
+body {
+  overflow-x: clip;
+}
 
 #service-section {
   margin: 0;
   padding: 0;
   min-height: 740px;
   width: 100%;
-  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,30 +14,28 @@
 }
 
 #service-section h2 {
-  color: #fff;
+  color: #000000;
   font-size: 2rem;
   margin-bottom: 20px;
   position: relative;
-  
 }
-
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 15px;
   z-index: 3;
   margin-top: 20px;
 }
 
 .cards .card {
   height: 280px;
-  width: 38 0px;
+  width: 30 0px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0 8%;
-  background: rgb(65, 62, 105);
+  background: #004d40;
   position: relative;
   border-radius: 10px;
   margin: 0 10px;
@@ -122,20 +121,29 @@
   .Service3C {
     text-align: center;
   }
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (min-width: 840px) {
   .ServiceCon {
     margin-top: 10rem;
   }
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (max-width: 900px) {
   .cards .card {
     height: 300px;
-    width: 400px;
+    width: 350px;
     margin: 20px 0;
   }
+
+  
 }
 
 @media screen and (max-width: 1100px) {
@@ -144,6 +152,6 @@
   }
 
   .cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
