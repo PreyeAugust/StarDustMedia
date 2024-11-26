@@ -65,7 +65,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
               className="absolute bottom-2 right-2 cursor-pointer"
               onClick={clickNext}
             >
-              <FaChevronRight width={20} height={20} />
+              <FaChevronRight />
             </div>
           </div>
         </div>

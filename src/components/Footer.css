@@ -1,15 +1,12 @@
+.footerImg {
+  width: 40px;
+  height: 40px;
+}
+
 .footer {
-  background: #2c540e;
+  background: #004d40;
 }
 
-.footer-text {
-  color: white;
-}
-
-.footer-Link {
-  background: black;
-}
-
-.FSocial-Icons:hover {
-  color: #ffd700;
+.footer2 {
+  background: #ffd700;
 }

@@ -5,183 +5,190 @@ import React from "react";
 import "./Footer.css";
 import Image from "next/image";
 import Img1 from "@/assets/StarDustLOGO.jpg";
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaLocationArrow,
-  FaMailBulk,
-  FaMobileAlt,
-} from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
 
-const FooterLinks = [
-  {
-    title: "Home",
-    link: "/home",
-  },
-  {
-    title: "About",
-    link: "/about",
-  },
-  {
-    title: "Services",
-    link: "/services",
-  },
-  {
-    title: "Products",
-    link: "/products",
-  },
-  {
-    title: "Contact Us",
-    link: "/contactUs",
-  },
-];
-
-const FooterLinks2 = [
-  {
-    title1: "Services",
-    link1: "/services",
-  },
-  {
-    title1: "Products",
-    link1: "/products",
-  },
-  {
-    title1: "Contact Us",
-    link1: "/contactUs",
-  },
-];
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="container">
-        <div className="grid md:grid-cols-3 pb-20 pt-5">
-          {/* company details */}
-          <div data-aos="fade-up" data-aos-delay="1500" className="py-8 px-4">
-            <a
-              href="#"
-              className="text-primary font-semibold
-              tracking-widest text-2xl uppercase sm:text-3xl"
-            >
-              <Image src={Img1} alt="" className="w-[100px]" />
-            </a>
-            <p className="footer-text lg:pr-24 pt-3">
-              Stardust Media & Comics believes in the transformative power of
-              storytelling and the profound influence it can have on young
-              minds.
-            </p>
-            <p className="footer-text text-gray-500 mt-4">
-              Fostering innovation and imaginative thinking.
-            </p>
-            <a
-              href="#"
-              className="footer-Link inline-block text-white
-            py-2 px-4 mt-4 text-sm rounded-full"
-            >
-              Visit Our ( ) Channel
-            </a>
+    <footer className="text-gray-600 body-font footer">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+              Quicklinks
+            </h2>
+            <nav className="list-none mb-10 font-serif">
+              <li>
+                <a
+                  href="/home"
+                  className="text-gray-900 hover:text-gray-800 font-serif"
+                >
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="text-gray-800 hover:text-gray-800">
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services"
+                  className="text-gray-800 hover:text-gray-800"
+                >
+                  SERVICES
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/products"
+                  className="text-gray-800 hover:text-gray-800"
+                >
+                  PRODUCTS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contactUs"
+                  className="text-gray-800 hover:text-gray-800"
+                >
+                  CONTACT
+                </a>
+              </li>
+            </nav>
           </div>
-
-          {/* Footer Links */}
-          <div
-            className="footer-text col-span-2 grid grid-cols-2
-           sm:grid-cols-3 md:pl-10"
-          >
-            <div data-aos="fade-up" data-aos-delay="1500" className="py-8 px-4">
-              <h1 className="text-xl font-bold sm:text-left mb-3">
-                Important Links
-              </h1>
-              <ul className="space-y-3">
-                {FooterLinks.map((data, index) => (
-                  <li key={index}>
-                    <a
-                      href={data.link}
-                      className="text-white-600 dark:text-white-400 
-                      hover:text-black hover:text-black duration-300"
-                    >
-                      {data.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Second col link*/}
-            <div data-aos="fade-up" data-aos-delay="1500" className="py-8 px-4">
-              <h1 className="text-xl font-bold sm:text-left mb-3">
-                Quick Links
-              </h1>
-              <ul className="space-y-3">
-                {FooterLinks2.map((data, index) => (
-                  <li key={index}>
-                    <a
-                      href={data.link1}
-                      className="text-white-600 dark:text-white-400 
-                      hover:text-black hover:text-black duration-300"
-                    >
-                      {data.title1}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Company Address */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="1500"
-              className="py-8 px-4 col-span-2 sm:col-auto"
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+              Address
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-black hover:text-gray-800 font-serif">
+                  No.8 Abdulahhi Ibrahim St, Utako Abuja.
+                </a>
+              </li>
+              <li>
+                <a className="text-black hover:text-gray-800 font-serif">
+                  +234 706 486 4040
+                </a>
+              </li>
+              <li>
+                <a className="text-black hover:text-gray-800">
+                  +234 803 467 6736
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="font-serif uppercase title-font text-gray-900 tracking-widest text-lg font-bold mb-3">
+              email us
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="uppercase font-serif text-gray-900 hover:text-gray-800">
+                  stardustcomicsmedia@gmail.com
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font text-lg text-black font-serif font-bold tracking-widest mb-3">
+              SUBSCRIBE
+            </h2>
+            <form
+              action="https://formsubmit.co/0db64e6f5136618657a78bc16a5817f7"
+              method="POST"
+              className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
             >
-              <h1 className="text-xl font-bold sm:text-left mb-3">Address</h1>
-              <div>
-                <div className="flex items-center gap-3">
-                  <FaLocationArrow />
-                  <p>No.8 Abdullahi ibrahim St, Utako, Abuja</p>
-                </div>
-
-                <div className="flex items-center gap-3 mt-6">
-                  <FaMobileAlt />
-                  <p>+234 706 486 4040</p>
-                  <p>+234 803 467 6736</p>
-                </div>
-
-                <div className="flex items-center gap-3 mt-6">
-                  <FaMailBulk />
-                  <p>stardustcomicsmedia@gmail.com</p>
-                </div>
-
-                {/* Social Links */}
-                <div className="flex items-center gap-3 mt-6">
-                  <a
-                    href="https://www.instagram.com/stardustcomics_/profilecard/?igsh=MW41emxmdG8zaWNnbQ=="
-                    className="FSocial-Icons text-3xl
-                     duration-300"
-                  >
-                    <FaInstagram />
-                  </a>
-
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100064957662453&mibextid=LQQJ4d"
-                    className="FSocial-Icons text-3xl
-                   duration-300"
-                  >
-                    <FaFacebook />
-                  </a>
-
-                  <a
-                    href=""
-                    className="FSocial-Icons text-3xl
-                     duration-300"
-                  >
-                    <FaLinkedin />
-                  </a>
-                </div>
+              <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <label className="leading-7 text-md font-serif text-black">Email</label>
+                <input
+                  type="text"
+                  id="footer-field"
+                  name="footer-field"
+                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
               </div>
-            </div>
+              <button
+                type="submit"
+                className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-black shadow-sm"
+              >
+                Send
+              </button>
+            </form>
+            <p className="text-black font-serif text-sm mt-2 md:text-left text-center">
+              STARDUST MEDIA & COMICS
+            </p>
           </div>
         </div>
       </div>
-    </div>
+      <div className=" footer2">
+        <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <Image src={Img1} alt="" className="footerImg" />
+            <span className="ml-3 text-xl font-serif uppercase">Stardust</span>
+          </a>
+          <p className="text-sm font-serif  text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            © 2024 STARDUST MEDIA & COMICS
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              className="text-gray-600 ml-1"
+              target="_blank"
+            ></a>
+          </p>
+          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a
+              href="https://www.facebook.com/profile.php?id=100064957662453&mibextid=LQQJ4d"
+              className="text-gray-500"
+            >
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                className="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/stardustcomics_/profilecard/?igsh=MW41emxmdG8zaWNnbQ=="
+              className="ml-3 text-gray-500"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                className="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a className="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                className="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
   );
 }

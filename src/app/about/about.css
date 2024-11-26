@@ -1,13 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  transition: 0.2s linear;
-}
-
 .heroAboutContainer {
   position: relative;
   height: 100vh;
@@ -130,9 +120,9 @@
 }
 
 .AboutValueIMG {
- z-index: 0;
+  z-index: 0;
 }
 
-.descImg{
+.descImg {
   width: 15px;
 }

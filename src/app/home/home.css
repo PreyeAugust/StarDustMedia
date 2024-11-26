@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  transition: 0.2s linear;
+body {
+  overflow-x: clip;
 }
-
-
 
 .buttons a {
   padding: 1.5rem 2rem;
