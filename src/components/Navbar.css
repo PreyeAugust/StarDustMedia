@@ -1,3 +1,7 @@
+body {
+  overflow-x: clip;
+}
+
 .logo {
   width: 90px;
 }
