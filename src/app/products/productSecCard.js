@@ -7,7 +7,6 @@ import Img3 from "@/assets/Giving Peace a Chance irene Abuja-1.png";
 import Img4 from "@/assets/REWARD OF SAVINNGS COVER - STARDUST.png";
 import Img5 from "@/assets/YoungEmeralds.jpg";
 
-
 const productSecCard = () => {
   return (
     <div>
@@ -149,74 +148,7 @@ const productSecCard = () => {
               data-aos="fade-up"
               data-aos-delay="200"
               className="group aos-init"
-            >
-              <div className="relative">
-                <Image
-                  src={Img3}
-                  alt=""
-                  className="h-[180px] w-[260px] object-cover rounded-md"
-                />
-                <div className="hidden group-hover:flex absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-full w-full text-center group-hover:backdrop-blur-sm justify-center items-center duration-200 rounded-md">
-                  <a href="https://selar.co/66b56n">
-                    <button className="bg-primary text-white cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10">
-                      Purchase
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="leading-7">
-                <h2 className="font-semibold">Giving Peace A Chance</h2>
-                <h2 className="font-bold">N2500</h2>
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="400"
-              className="group aos-init"
-            >
-              <div className="relative">
-                <Image
-                  src={Img2}
-                  alt=""
-                  className="h-[180px] w-[260px] object-cover rounded-md"
-                />
-                <div class="hidden group-hover:flex absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-full w-full text-center group-hover:backdrop-blur-sm justify-center items-center duration-200 rounded-md">
-                  <a href="https://selar.co/cuo322">
-                    <button className="bg-primary text-white cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10">
-                      Purchase
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="leading-7">
-                <h2 className="font-semibold">Nkem Learns About VAT</h2>
-                <h2 className="font-bold">N2500</h2>
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="600"
-              className="group aos-init"
-            >
-              <div className="relative">
-                <Image
-                  src={Img1}
-                  alt=""
-                  className="h-[180px] w-[260px] object-cover rounded-md"
-                />
-                <div className="hidden group-hover:flex absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-full w-full text-center group-hover:backdrop-blur-sm justify-center items-center duration-200 rounded-md">
-                  <a href="https://selar.co/1py2wj">
-                    <button className="bg-primary text-white cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10">
-                      Purchase
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="leading-7">
-                <h2 className="font-semibold">The Patriot Kids </h2>
-                <h2 className="font-bold">N2500</h2>
-              </div>
-            </div>
+            ></div>
           </div>
         </div>
       </div>
