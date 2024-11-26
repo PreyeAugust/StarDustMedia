@@ -10,7 +10,7 @@ export default function serviceSec2() {
   return (
     <div>
       <div id="service-section">
-        <h2>Our Services</h2>
+        <h2 className="font-serif lg:text-center sm:text-center">Our Services</h2>
 
         <div className="cards">
           <div className="card">

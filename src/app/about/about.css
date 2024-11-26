@@ -92,7 +92,6 @@
 }
 
 .section1-intro {
-  font-family: "Wittgenstein", serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-size: 15px;
@@ -132,4 +131,8 @@
 
 .AboutValueIMG {
  z-index: 0;
+}
+
+.descImg{
+  width: 15px;
 }

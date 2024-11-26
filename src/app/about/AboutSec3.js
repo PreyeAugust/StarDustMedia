@@ -2,11 +2,10 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import "./about.css";
-
 
 import { images } from "./constants";
 import Description from "./Description";
+import "./about.css";
 
 const AboutSec3 = () => {
   const [activeImage, setActiveImage] = useState(0);
@@ -33,9 +32,7 @@ const AboutSec3 = () => {
       clearTimeout(timer);
     };
   });
-
   return (
-    
     <main
       data-aos="fade-up"
       className="grid place-items-center md:grid-cols-2 grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl main"

@@ -42,7 +42,7 @@ export default function page() {
       <AboutSec1 data={AboutSec1Data} />
       <AboutSec2 />
       <AboutSec3 />
-      <br />
+
       <Footer />
     </div>
   );

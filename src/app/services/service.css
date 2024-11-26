@@ -25,29 +25,9 @@
   font-size: 2rem;
   margin-bottom: 20px;
   position: relative;
+  
 }
 
-#service-section h2::after {
-  position: absolute;
-  content: " ";
-  top: 30%;
-  left: -30px;
-  height: 0px;
-  width: 0px;
-  border-top: 20px solid #ffd700;
-  border-left: 20px solid #ffffff;
-}
-
-#service-section h2::before {
-  position: absolute;
-  content: " ";
-  top: 30px;
-  right: -30px;
-  height: 0px;
-  width: 0px;
-  border-top: 20px solid #ffd700;
-  border-right: 20px solid #004d40;
-}
 
 .cards {
   display: grid;
