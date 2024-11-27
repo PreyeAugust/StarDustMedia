@@ -5,7 +5,6 @@ import React from "react";
 
 import HeroSection from "@/app/home/heroSection";
 import Section1 from "@/app/home/section1";
-import Section101 from "@/app/home/section1(101)";
 import Section2 from "@/app/home/section2";
 import Section3 from "@/app/home/section3";
 import Section4 from "@/app/home/section4";
@@ -51,7 +50,6 @@ export default function page() {
 
       <HeroSection />
       <Section1 />
-      <Section101 />
       <Section2 />
       <Section3 data={Section3Data} />
       <Section4 />

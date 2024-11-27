@@ -21,3 +21,23 @@ html {
 .custom-img {
   background-image: url(../assets//productHero.jpg);
 }
+
+.custom-color{
+  background-color: #004d40;
+}
+
+.custom-color:hover{
+  background-color: #ffd700;
+}
+
+.custom-img2 {
+  background-image: url(../assets//The\ Patriot\ Kids\ -\ Cover.png);
+}
+
+.custom-img3 {
+  background-image: url(../assets//Giving\ Peace\ a\ Chance\ irene\ Abuja-1.png);
+}
+
+.custom-img4 {
+  background-image: url(../assets//YoungEmeralds.jpg);
+}
