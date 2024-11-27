@@ -59,7 +59,7 @@ const productCard = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-80 rounded overflow-hidden">
+            <a className="block relative h-60 rounded overflow-hidden">
               <Image
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
