@@ -1,4 +1,4 @@
-body {
+.body {
   overflow-x: clip;
 }
 
@@ -20,8 +20,6 @@ body {
   transition: 0.25s background-color;
   cursor: pointer;
 }
-
-
 
 .second {
   background: url(../../assets/The\ Patriot\ Kids\ -\ Cover.png);
@@ -131,10 +129,7 @@ body {
   background-color: rgba(16, 16, 16, 0.7);
 }
 
-
-
 .sec1 {
-  
   font-size: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -158,8 +153,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .pbtn {
   margin-left: 60px;

@@ -17,13 +17,6 @@ const AboutSec3 = () => {
       : setActiveImage(activeImage + 1);
   };
 
-  const clickPrev = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    activeImage === 0
-      ? setActiveImage(images.length - 1)
-      : setActiveImage(activeImage - 1);
-  };
-
   useEffect(() => {
     const timer = setTimeout(() => {
       clickNext();
@@ -60,11 +53,7 @@ const AboutSec3 = () => {
           </div>
         ))}
       </div>
-      <Description
-        activeImage={activeImage}
-        clickNext={clickNext}
-        clickPrev={clickPrev}
-      />
+      <Description activeImage={activeImage} />
     </main>
   );
 };

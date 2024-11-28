@@ -4,7 +4,7 @@ import "./contact.css";
 import ContactForm from "@/app/contactUs/contactForm";
 
 import Image from "next/image";
-import Img1 from "@/assets/contactImageBG.jpg"
+import Img1 from "@/assets/contactImageBG.jpg";
 
 export default function contactSec2() {
   return (
@@ -16,13 +16,10 @@ export default function contactSec2() {
               <div className="relative h-full">
                 <Image
                   src={Img1}
-            
                   alt="ContactUs tailwind section"
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700"
                 />
-                <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
-                  Contact us
-                </h1>
+
                 <div className="absolute bottom-0 w-full lg:p-11 p-5">
                   <div className="bg-white rounded-lg p-6 block">
                     <a href="javascript:;" className="flex items-center mb-6">

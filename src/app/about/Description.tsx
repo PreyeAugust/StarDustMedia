@@ -1,9 +1,7 @@
 import React from "react";
 import { images } from "./constants";
-import { FaChevronLeft } from "react-icons/fa";
-import { FaChevronRight } from "react-icons/fa";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 
 import "./about.css";
 
@@ -13,12 +11,9 @@ type Props = {
   clickPrev: undefined;
 };
 
-const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
+const Description = ({ activeImage }: Props) => {
   return (
     <div className="grid place-items-start w-full bg-[#e7dfd9] relative md:rounded-tr-3xl md:rounded-br-3xl">
-      <div className="section1-intro font-serif uppercase text-sm absolute left-20 top-2 underline-offset-4 underline">
-        Stardust media & comics
-      </div>
       {images.map((elem, idx) => (
         <div
           key={idx}
@@ -52,22 +47,6 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
               {elem.desc}
             </div>
           </motion.div>
-
-          <div className="absolute md:bottom-1 bottom-10 left-20 md:right-0 w-full flex justify-end items-center">
-            <div
-              className="absolute bottom-2 right-10 cursor-pointer"
-              onClick={clickPrev}
-            >
-              <FaChevronLeft />
-            </div>
-
-            <div
-              className="absolute bottom-2 right-2 cursor-pointer"
-              onClick={clickNext}
-            >
-              <FaChevronRight />
-            </div>
-          </div>
         </div>
       ))}
     </div>

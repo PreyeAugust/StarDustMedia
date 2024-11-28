@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function section3({ data }) {
   return (
-    <div className="min-h-[550px] flex justify-center items-center py-12 overAll">
+    <div className="body min-h-[550px] flex justify-center items-center py-12 overAll">
       <div className="container">
         <div
           style={{ backgroundColor: data.bgColor }}
@@ -12,7 +12,7 @@ export default function section3({ data }) {
         >
           {/* first col */}
           <div className="p-6 sm:p-8">
-            <p data-aos="slide-right" className="text-sm">
+            <p data-aos="zoom-out" className="text-sm">
               {data.discount}
             </p>
             <h1
@@ -21,7 +21,7 @@ export default function section3({ data }) {
             >
               {data.title}
             </h1>
-            <p data-aos="fade-up" className="text-sm">
+            <p data-aos="zoom-in" className="text-sm">
               {data.date}
             </p>
           </div>
@@ -39,13 +39,13 @@ export default function section3({ data }) {
             <p data-aos="zoom-out" className="font-bold text-xl">
               {data.title2}
             </p>
-            <p data-aos="fade-up" className="text-3xl sm:text-3xl font-bold">
+            <p data-aos="zoom-out" className="text-3xl sm:text-3xl font-bold">
               {data.title3}
             </p>
-            <p data-aos="fade-up" className="text-sm tracking-wide leading-5">
+            <p data-aos="zoom-out" className="text-sm tracking-wide leading-5">
               {data.title4}
             </p>
-            <div data-aos="fade-up" data-aos-offset="0">
+            <div data-aos="zoom-out" data-aos-offset="0">
               <a href="/products">
                 <button
                   style={{ color: "#2C540E" }}
