@@ -3,7 +3,7 @@ import "./creative.css";
 
 export default function creativeHero() {
   return (
-    <div className="creativeContainer">
+    <div className="body creativeContainer">
       <h1 data-aos="zoom-out" data-aos-delay="1000">
         Creative Services
       </h1>

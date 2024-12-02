@@ -3,7 +3,7 @@ import "./service.css";
 
 export default function serviceSec2() {
   return (
-    <section class="text-gray-600 body-font">
+    <section class="body text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
           <h1 class="sm:text-4xl font-serif font-bold text-2xl  uppercase text-center title-font text-black mb-4">

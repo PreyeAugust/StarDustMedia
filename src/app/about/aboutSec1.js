@@ -5,7 +5,7 @@ import Img1 from "@/assets/aboutSec.jpg";
 
 const aboutSec1 = ({ data }) => {
   return (
-    <div className="min-h-[550px] flex justify-center items-center py-12 overAll">
+    <div className="body min-h-[550px] flex justify-center items-center py-12 overAll">
       <div className="aboutContainer">
         <div
           style={{ backgroundColor: data.bgColor }}

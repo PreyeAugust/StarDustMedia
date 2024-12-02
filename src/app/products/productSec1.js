@@ -5,7 +5,7 @@ import ProductSecCard from "../products/productSecCard";
 export default function productSec1() {
   return (
     <div>
-      <div data-aos="zoom-out" className="container">
+      <div data-aos="zoom-out" className="body container">
         {/* Body section */}
         <ProductSecCard />
       </div>

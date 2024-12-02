@@ -9,7 +9,7 @@ import Img5 from "@/assets/YoungEmeralds.jpg";
 
 const productSecCard = () => {
   return (
-    <section data-aos="zoom-out" className="text-gray-600 body-font">
+    <section data-aos="zoom-out" className="body text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-10 max-w-[600px] mx-auto space-y-2">
           <h1 data-aos="zoom-out" className="text-3xl font-bold lg:text-4xl">

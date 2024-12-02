@@ -5,7 +5,7 @@ import ProductCard from "@/app/home/productCard";
 export default function section4() {
   return (
     <div>
-      <div className="container">
+      <div className="body container">
         {/* Body section */}
         <ProductCard />
       </div>

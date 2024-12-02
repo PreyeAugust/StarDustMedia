@@ -3,7 +3,7 @@ import "./contact.css";
 
 export default function contactHero() {
   return (
-    <div className="contactContainer">
+    <div className="body contactContainer">
       <h1 data-aos="zoom-out" data-aos-delay="1000">
         Contact us
       </h1>

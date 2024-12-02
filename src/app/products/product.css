@@ -1,4 +1,6 @@
-
+.body {
+  overflow-x: clip;
+}
 
 .ProductContainer {
   position: relative;
@@ -34,4 +36,3 @@
 .grid101 {
   background: rgb(15, 15, 15);
 }
-

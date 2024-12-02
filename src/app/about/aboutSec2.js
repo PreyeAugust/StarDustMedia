@@ -5,7 +5,7 @@ import Img1 from "@/../public/AboutValue.jpg";
 
 export default function aboutSec2() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="body text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap w-full">
           <div className="lg:w-3/5 md:w-1/2 md:pr-10 md:py-6">

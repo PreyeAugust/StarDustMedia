@@ -1,4 +1,6 @@
-
+.body{
+  overflow-x: clip;
+}
 
 .heroAboutContainer {
   position: relative;

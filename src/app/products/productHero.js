@@ -3,7 +3,7 @@ import "./product.css";
 
 export default function productHero() {
   return (
-    <div className="ProductContainer">
+    <div className="body ProductContainer">
       <h1 data-aos="zoom-out" data-aos-delay="1000">
         Products
       </h1>
