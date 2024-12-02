@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
+    "@vercel/speed-insights": "^1.1.0",
     "aos": "^2.3.4",
     "formkit": "^1.6.9",
     "framer-motion": "^11.11.17",
