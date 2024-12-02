@@ -8,7 +8,7 @@ import Img1 from "@/assets/StarDustLOGO.jpg";
 
 export default function Footer() {
   return (
-    <footer data-aos="zoom-out" className="text-gray-600 body-font footer">
+    <footer data-aos="zoom-out" className="text-gray-600 body-font footer body">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
