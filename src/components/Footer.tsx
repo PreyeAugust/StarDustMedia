@@ -8,7 +8,7 @@ import Img1 from "@/assets/StarDustLOGO.jpg";
 
 export default function Footer() {
   return (
-    <footer className="text-gray-600 body-font footer">
+    <footer data-aos="zoom-out" className="text-gray-600 body-font footer">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -17,10 +17,7 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10 font-serif">
               <li>
-                <a
-                  href="/home"
-                  className="text-white hover:text-gray-800"
-                >
+                <a href="/home" className="text-white hover:text-gray-800">
                   HOME
                 </a>
               </li>
@@ -30,26 +27,17 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="/services"
-                  className="text-white hover:text-gray-800"
-                >
+                <a href="/services" className="text-white hover:text-gray-800">
                   SERVICES
                 </a>
               </li>
               <li>
-                <a
-                  href="/products"
-                  className="text-white hover:text-gray-800"
-                >
+                <a href="/products" className="text-white hover:text-gray-800">
                   PRODUCTS
                 </a>
               </li>
               <li>
-                <a
-                  href="/contactUs"
-                  className="text-white hover:text-gray-800"
-                >
+                <a href="/contactUs" className="text-white hover:text-gray-800">
                   CONTACT
                 </a>
               </li>
@@ -126,7 +114,9 @@ export default function Footer() {
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image src={Img1} alt="" className="footerImg" />
-            <span className="ml-3 text-xl font-serif text-white uppercase">Stardust</span>
+            <span className="ml-3 text-xl font-serif text-white uppercase">
+              Stardust
+            </span>
           </a>
           <p className="text-sm font-serif  text-white sm:ml-6 sm:mt-0 mt-4">
             © 2024 STARDUST MEDIA & COMICS

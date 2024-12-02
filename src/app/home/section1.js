@@ -18,7 +18,6 @@ export default function section1() {
           </div>
           <p
             data-aos="zoom-out"
-            data-aos-delay="1500"
             className="lg:w-1/2  font-serif w-full leading-relaxed text-gray-500"
           >
             To empower young minds through captivating storytelling and
@@ -31,7 +30,6 @@ export default function section1() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <div
               data-aos="zoom-out"
-              data-aos-delay="1500"
               className="custom-img bg-cover h-[480px] bg-center bg p-6 rounded-lg"
             >
               <br />
@@ -55,7 +53,10 @@ export default function section1() {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="custom-img2 bg-cover h-[480px] bg-center bg p-6 rounded-lg">
+            <div
+              data-aos="zoom-out"
+              className="custom-img2 bg-cover h-[480px] bg-center bg p-6 rounded-lg"
+            >
               <br />
               <br />
               <br />
@@ -77,7 +78,10 @@ export default function section1() {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="custom-img3 bg-cover h-[480px] bg-center bg p-6 rounded-lg">
+            <div
+              data-aos="zoom-out"
+              className="custom-img3 bg-cover h-[480px] bg-center bg p-6 rounded-lg"
+            >
               <br />
               <br />
               <br />
@@ -99,7 +103,10 @@ export default function section1() {
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className=" custom-img4 bg-cover h-[480px] bg-center bg p-6 rounded-lg">
+            <div
+              data-aos="zoom-out"
+              className=" custom-img4 bg-cover h-[480px] bg-center bg p-6 rounded-lg"
+            >
               <br />
               <br />
               <br />

@@ -9,8 +9,7 @@ import brand5 from "@/assets/br-5.png";
 export default function section5() {
   return (
     <div
-      ddata-aos="zoom-out"
-      data-aos-delay="1500"
+      data-aos="zoom-out"
       className="body py-8 mt-24 md:block bg-gray-200 dark:bg-white/10 "
     >
       <div className="container">
