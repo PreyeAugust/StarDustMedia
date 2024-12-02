@@ -30,7 +30,7 @@ export default function section1() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <div
               data-aos="zoom-out"
-              className="custom-img bg-cover h-[480px] bg-center bg p-6 rounded-lg"
+              className="custom-img1 bg-cover h-[480px] bg-center bg p-6 rounded-lg"
             >
               <br />
               <br />
