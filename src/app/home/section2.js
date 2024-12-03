@@ -3,7 +3,7 @@ import "./home.css";
 
 const section2 = () => {
   return (
-    <div className="body py-8 secondcol1">
+    <div className="py-8 secondcol1">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* first col */}

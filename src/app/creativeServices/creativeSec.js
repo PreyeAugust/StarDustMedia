@@ -3,7 +3,7 @@ import "./creative.css";
 
 const creativeSec = () => {
   return (
-    <section class="body text-gray-600 body-font">
+    <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
           <div class="p-4 lg:w-1/3">

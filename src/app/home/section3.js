@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function section3({ data }) {
   return (
-    <div className="body min-h-[550px] flex justify-center items-center py-12 overAll">
+    <div className="min-h-[550px] flex justify-center items-center py-12 overAll">
       <div className="container">
         <div
           style={{ backgroundColor: data.bgColor }}

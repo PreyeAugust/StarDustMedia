@@ -9,8 +9,8 @@ import Img5 from "@/assets/YoungEmeralds.jpg";
 
 const productCard = () => {
   return (
-    <section class="body text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section class="container text-gray-600 body-font">
+      <div className=" px-5 py-24 mx-auto">
         <div className="text-center mb-10 max-w-[600px] mx-auto space-y-2">
           <h1 className="text-3xl font-bold lg:text-4xl">
             Explore Our Products

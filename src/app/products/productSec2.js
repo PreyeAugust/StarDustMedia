@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function productSec2({ data }) {
   return (
-    <div className="body min-h-[550px] flex justify-center items-center py-12 overAll">
+    <div className="min-h-[550px] flex justify-center items-center py-12 overAll">
       <div className="aboutContainer">
         <div className="grid101 grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl">
           {/* first col */}

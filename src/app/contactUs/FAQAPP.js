@@ -4,7 +4,7 @@ import "./contact.css";
 
 export default function FAQAPP() {
   return (
-    <main className="body flex justify-center items-center">
+    <main className="flex justify-center items-center">
       <div className="w-[1000px] space-y-10 p-5 md:px-10">
         {FAQITEMS.map((item, i) => (
           <div key={i} className="space-y-5 ">
