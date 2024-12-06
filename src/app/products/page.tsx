@@ -6,6 +6,7 @@ import React from "react";
 import ProductHero from "@/app/products/productHero";
 import ProductSec1 from "@/app/products/productSec1";
 import ProductSec2 from "@/app/products/productSec2";
+import ProductSec3 from "@/app/products/productSec3";
 
 import Img1 from "@/assets/The Patriot Kids - Cover.png";
 
@@ -37,6 +38,7 @@ export default function page() {
       <Navbar />
       <ProductHero />
       <ProductSec1 />
+      <ProductSec3 />
       <ProductSec2 data={ProductServices} />
 
       <Footer />

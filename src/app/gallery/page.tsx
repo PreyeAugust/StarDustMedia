@@ -3,8 +3,8 @@
 import dynamic from "next/dynamic";
 import React from "react";
 
-import ServiceHero from "@/app/services/serviceHero";
-import ServiceSec2 from "@/app/services/serviceSec2";
+import GalleryHero from "@/app/gallery/galleryHero";
+import Gallery1 from "@/app/gallery/gallery1";
 
 const Navbar = dynamic(() => import("@/components/Navbar"), {
   ssr: false,
@@ -18,8 +18,8 @@ export default function page() {
   return (
     <div>
       <Navbar />
-      <ServiceHero />
-      <ServiceSec2 />
+      <GalleryHero />
+      <Gallery1 />
 
       <Footer />
     </div>

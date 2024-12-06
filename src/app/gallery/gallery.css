@@ -1,9 +1,7 @@
-
-
-.serviceContainer {
+.galleryContainer {
   position: relative;
   height: 100vh;
-  background-image: url(../../assets//services1.jpg);
+  background-image: url(../../assets/galleryImg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -13,7 +11,7 @@
   align-items: center;
 }
 
-.serviceContainer::before {
+.galleryContainer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -23,7 +21,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.serviceContainer h1 {
+.galleryContainer h1 {
   position: relative;
   z-index: 1;
   color: #fff;

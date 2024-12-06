@@ -20,10 +20,20 @@ export default function section1() {
             data-aos="zoom-out"
             className="lg:w-1/2  font-serif w-full leading-relaxed text-gray-500"
           >
-            To empower young minds through captivating storytelling and
-            innovative solutions. We strive to create a positive impact on
-            society by providing high-quality educational and entertainment
-            content.
+            Stardust Media Services Limited is a forward-thinking creative
+            agency committed to empowering individuals and transforming
+            communities through innovation, education, and captivating
+            storytelling. Founded by the visionary Queen Irene Onwuka, Stardust
+            Media Services is more than just a company—it’s a movement to
+            inspire hope, foster creativity, and drive social impact. Our
+            services span a diverse range of creative and strategic offerings,
+            including engaging content development, visually stunning designs,
+            educational materials, event management, and brand consulting.
+            Whether it’s crafting compelling narratives, publishing impactful
+            books, or delivering innovative brand strategies, we bring a unique
+            blend of passion, professionalism, and purpose to everything we do.
+            Join us as we create, inspire, and make a difference—one project at
+            a time.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

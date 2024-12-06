@@ -32,99 +32,10 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.AboutFirstP {
-  font-size: 25px;
-  text-transform: uppercase;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 
-.discount2 {
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 
-.discount3 {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.AboutTitle {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.title2 {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.title3 {
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  letter-spacing: 2px;
-}
-
-.title4 {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.dateP {
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  letter-spacing: 2px;
-}
-
-.about2First {
-  background: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.section1-intro {
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-size: 15px;
-  font-style: normal;
-}
-
-.section1-title {
-  font-family: "Wittgenstein", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-size: 25px;
-  font-style: normal;
-}
-
-.section1-desc {
-  font-size: 13px;
-  font-weight: 500;
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-}
-
-.main {
-  margin-top: 5rem;
-}
-
-.about2First3 {
-  background: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.about2ps {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  letter-spacing: 2px;
-}
-
-.AboutValueIMG {
-  z-index: 0;
-}
-
-.descImg {
-  width: 15px;
+.ab-sec1{
+  background: #2c540e;
+  border-radius: 5rem;
+  margin-top: 2rem;
 }

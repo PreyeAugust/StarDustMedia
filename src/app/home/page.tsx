@@ -5,10 +5,7 @@ import React from "react";
 
 import HeroSection from "@/app/home/heroSection";
 import Section1 from "@/app/home/section1";
-import Section2 from "@/app/home/section2";
 import Section3 from "@/app/home/section3";
-import Section4 from "@/app/home/section4";
-import Section5 from "@/app/home/section5";
 import comic from "@/assets/section3IMG2-removebg-preview.png";
 import comic2 from "@/assets/section3IMG.jpg";
 
@@ -22,7 +19,7 @@ const Footer = dynamic(() => import("@/components/Footer"), {
 
 const Section3Data = {
   discount: "To Ignite",
-  title: "Young Imaginations",
+  title: "Young Minds",
   date: "Through engaging and inspiring content",
   Image: comic,
   title2: "To Be The Leading Provider",
@@ -50,11 +47,8 @@ export default function page() {
 
       <HeroSection />
       <Section1 />
-      <Section2 />
       <Section3 data={Section3Data} />
-      <Section4 />
       <Section3 data={Section3Data2} />
-      <Section5 />
 
       <Footer />
     </div>

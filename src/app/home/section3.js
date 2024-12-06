@@ -17,7 +17,7 @@ export default function section3({ data }) {
             </p>
             <h1
               data-aos="zoom-out"
-              className="uppercase text-4xl lg:text-7xl font-bold"
+              className="uppercase text-3xl lg:text-5xl font-serif"
             >
               {data.title}
             </h1>

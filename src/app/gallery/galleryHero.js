@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
-import "./service.css";
+import "./gallery.css";
 
-export default function serviceHero() {
+export default function galleryHero() {
   return (
-    <div className="serviceContainer">
+    <div className="galleryContainer">
       <h1 data-aos="zoom-out" data-aos-delay="1000">
-        Services
+        GALLERY
       </h1>
     </div>
   );

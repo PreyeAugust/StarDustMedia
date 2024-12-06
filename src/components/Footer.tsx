@@ -26,11 +26,7 @@ export default function Footer() {
                   ABOUT
                 </a>
               </li>
-              <li>
-                <a href="/services" className="text-white hover:text-gray-800">
-                  SERVICES
-                </a>
-              </li>
+
               <li>
                 <a href="/products" className="text-white hover:text-gray-800">
                   PRODUCTS
@@ -53,26 +49,55 @@ export default function Footer() {
                   No.8 Abdulahhi Ibrahim St, Utako Abuja.
                 </a>
               </li>
-              <li>
-                <a className="text-white hover:text-gray-800 font-serif">
-                  +234 706 486 4040
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-800">
-                  +234 803 467 6736
-                </a>
-              </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="font-serif uppercase title-font text-white tracking-widest text-lg font-bold mb-3">
-              email us
+              contact us
             </h2>
             <nav className="list-none mb-10">
               <li>
                 <a className=" font-serif text-white hover:text-gray-800">
                   Stardustcomicsmedia@gmail.com
+                </a>
+              </li>
+              <li>
+                <a className="text-white hover:text-black font-serif">
+                  +234 706 486 4040
+                </a>
+              </li>
+              <li>
+                <a className="text-white hover:text-black font-serif">
+                  +234 803 476 1889
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white hover:text-black font-serif"
+                  href="https://www.facebook.com/profile.php?id=100064957662453&mibextid=LQQJ4d"
+                >
+                  FB: Stardust Services
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white hover:text-black font-serif"
+                  href="https://www.instagram.com/stardustcomics_/profilecard/?igsh=MW41emxmdG8zaWNnbQ=="
+                >
+                  IG:stardustcomics
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white hover:text-black font-serif"
+                  href="https://www.youtube.com/@Stardustcomicsmedia"
+                >
+                  YT: Stardust Media
+                </a>
+              </li>
+              <li>
+                <a className="text-white hover:text-black font-serif">
+                  LINKEDIN: Stardust Media Services
                 </a>
               </li>
             </nav>
