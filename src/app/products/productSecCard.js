@@ -3,7 +3,7 @@ import "./product.css";
 import Image from "next/image";
 import Img1 from "@/assets/The Patriot Kids - Cover.png";
 import Img2 from "@/assets/Nkem Learns About Vat.png";
-import Img3 from "@/assets/Giving Peace a Chance irene Abuja-1 (2).png";
+import Img3 from "@/assets/united we stand.jpg";
 import Img4 from "@/assets/REWARD OF SAVINNGS COVER - STARDUST.png";
 import Img5 from "@/assets/YoungEmeralds.jpg";
 
