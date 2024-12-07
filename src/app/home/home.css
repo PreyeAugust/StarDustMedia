@@ -1,13 +1,25 @@
-.buttons a {
-  padding: 1.5rem 2rem;
-  margin: 0 1rem;
-  background-color: transparent;
-  border: solid white 1px;
-  font-size: 12px;
-  color: white;
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  height: 100vh;
+}
+
+.contents h1 {
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  transition: 0.25s background-color;
+  color: white;
+  letter-spacing: 1.5rem;
+  font-weight: 500;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.buttons a {
+  padding: 20px 40px;
+  border: solid white 1px;
 }
 
 .buttons a:hover {
@@ -17,142 +29,22 @@
   cursor: pointer;
 }
 
-.second {
-  background: url(../../assets/The\ Patriot\ Kids\ -\ Cover.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.second::before {
-  content: "";
+.video {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  z-index: -1;
   height: 100%;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.first {
-  background: url(../../assets/Giving\ Peace\ a\ Chance\ irene\ Abuja-1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.first::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  object-fit: cover;
 }
 
-.third {
-  background: url(../../assets/Nkem\ Learns\ About\ Vat.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.third::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
-.first2 {
-  background: url(../../assets/REWARD\ OF\ SAVINNGS\ COVER\ -\ STARDUST.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.first2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
-.second2 {
-  background: url(../../assets/Nkem\ Learns\ About\ Vat.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.second2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
-.third2 {
-  background: url(../../assets/The\ Patriot\ Kids\ -\ Cover.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.third2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgba(16, 16, 16, 0.7);
-}
 
-.sec1 {
-  font-size: 20px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  padding: 20px 40px;
-}
-
-.col1 {
-  background: url(../../assets/star\ dust.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.secondcol1 {
-  margin-top: 5rem;
-}
-
-.section2Col {
-  background: url(./../../assets//pexel1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pbtn {
-  margin-left: 60px;
-}
 
 @media screen and (max-width: 500px) {
   .contents h1 {
