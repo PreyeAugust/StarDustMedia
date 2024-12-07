@@ -9,8 +9,6 @@
   width: 100%;
 }
 
-
-
 .buttons a {
   padding: 20px 40px;
   border: solid white 1px;
@@ -44,13 +42,11 @@
   }
 
   .heroMain {
-
     text-align: start;
   }
 
-  .content{
-    font-size: 18px;
+  .content {
+    font-size: 17px;
     font-weight: bolder;
   }
-
 }
