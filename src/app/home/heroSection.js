@@ -10,7 +10,7 @@ export default function heroSection() {
         <h1 className="content uppercase font-serif ">
           Imagination to reality
         </h1>
-        <p className=" content-P py-5 text-md font-serif ">
+        <p className=" content-P py-5 font-serif ">
           {" "}
           A dynamic creative agency dedicated to inspiring young minds and
           empowering individuals through innovative solutions and captivating
