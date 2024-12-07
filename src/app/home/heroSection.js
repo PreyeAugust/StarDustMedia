@@ -4,7 +4,7 @@ import "./home.css";
 
 export default function heroSection() {
   return (
-    <main className="heroMain flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover">
+    <main className="heroMain flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-homeHero">
       <div className="absolute w-full top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
       <div className=" container p-5 text-white z-[2] mt-[10rem]">
         <h1 className="content uppercase font-serif text-3xl">
@@ -22,9 +22,6 @@ export default function heroSection() {
           <a href="/products">Products</a>
         </div>
       </div>
-      <video autoPlay loop muted className="video">
-        <source src="/comic-vid.mp4" type="video/mp4" />
-      </video>
     </main>
   );
 }
