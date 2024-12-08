@@ -19,7 +19,9 @@ export default function heroSection() {
         <br />
         <br />
         <div className="buttons">
-          <a href="/products">Products</a>
+          <a href="/products" className="font-serif text-1xl">
+            Products
+          </a>
         </div>
       </div>
     </main>
