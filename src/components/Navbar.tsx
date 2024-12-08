@@ -31,9 +31,9 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-20 ease-in duration-300"
+      className="fixed z-40 w-full h-20 lg:h-28 border-b-[1px] border-gray-500 text-black lg:text-white bg-white lg:bg-transparent"
     >
-      <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+      <div className=" max-w-screen-2xl h-full mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <Image src={Img1} className="logo" alt="" />
         </Link>
