@@ -1,4 +1,7 @@
-
+.heroMain{
+  width: 100%;
+  height: 100vh;
+}
 
 .buttons a {
   padding: 20px 40px;

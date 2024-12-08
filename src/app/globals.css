@@ -47,11 +47,32 @@ html {
   background-image: url(../assets/gallery19.jpg);
 }
 
-
 .custom-homeHero {
   background: url(../../public/Stardust.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+}
+
+.custom-homeHero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 113vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 500px){
+  .custom-homeHero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
