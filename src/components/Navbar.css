@@ -2,20 +2,32 @@
   width: 80px;
 }
 
-.bg {
-  background: #004d40;
+.mobileNavToggle:hover {
+  color: #004d40;
+}
+
+.AiOutlineClose{
+  color: black;
+  margin-left: 150px;
 }
 
 .p {
   font-size: 15px;
 }
 
+.p:hover {
+  color: gold;
+}
 
+.fiMenu {
+  margin-top: 25px;
+  margin-left: 12rem;
+}
 
 .nav-container {
   display: flex;
   justify-content: space-around;
-  background-color: aliceblue;
+  background-color: #004d40;
   padding: 0.5rem;
   width: 100%;
   font-size: 1rem;
