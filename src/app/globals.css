@@ -47,6 +47,11 @@ html {
   background-image: url(../assets/gallery19.jpg);
 }
 
+
 .custom-homeHero {
-  background-image: url(/images/Stardust.jpg);
+  background: url(../../public/Stardust.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
