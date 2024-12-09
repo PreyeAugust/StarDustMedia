@@ -32,13 +32,16 @@ export default function gallery1() {
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-            Master Cleanse Reliac Heirloom
+          <h1 class="sm:text-3xl text-1xl font-medium title-font text-black uppercase font-serif lg:w-1/3 lg:mb-0 mb-4">
+            A Glimpse into Our Creative Journey
           </h1>
-          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            havent heard of them man bun deep jianbing selfies heirloom.
+
+          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base font-serif">
+            Explore the world of Stardust Media & Comics through our captivating
+            projects. From inspiring childrens books to innovative digital
+            solutions, we bring stories to life.  Our work reflects our
+            commitment to quality, creativity, and innovation. We strive to
+            deliver exceptional results that exceed client expectations.
           </p>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
