@@ -54,7 +54,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="nav-container w-full h-20 lg:h-28 font-serif text-white">
+    <div className="nav-container w-full h-20 lg:h-23 font-serif text-white">
       {/* left side  */}
       <section
         ref={animationParent}
