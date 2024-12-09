@@ -46,18 +46,18 @@ export default function section1() {
               <br />
               <br />
               <br />
-              <h3 className="tracking-widest text-white text-1xl font-bold title-font font-serif">
-                Enjoy
+              <h3 className="tracking-widest text-white text-2xl font-bold title-font font-serif">
+                Stardust
               </h3>
               <br />
               <br />
               <h2 className=" text-white  text-2xl font-lg font-bold font-serif mb-4">
-                Comic <br /> With Stardust
+                Media <br /> & Comics
               </h2>
               <p className="leading-relaxed text-base"></p>
               <a href="/products">
-                <button class="font-serif flex mx-auto mt-6 text-white bg- border-0 py-2 px-2 custom-color focus:outline-none rounded">
-                  Button
+                <button class="font-serif font-medium flex mx-auto mt-6 text-white  border-0 py-2 px-2 custom-color focus:outline-none rounded">
+                  Products
                 </button>
               </a>
             </div>
@@ -71,18 +71,18 @@ export default function section1() {
               <br />
               <br />
               <br />
-              <h3 className="tracking-widest text-white text-1xl font-bold title-font font-serif">
-                Enjoy
+              <h3 className="tracking-widest text-white text-2xl font-bold title-font font-serif">
+                Stardust
               </h3>
               <br />
               <br />
               <h2 className=" text-white  text-2xl font-lg font-bold font-serif mb-4">
-                Comic <br /> With Stardust
+                Media <br /> & Comics
               </h2>
               <p className="leading-relaxed text-base"></p>
               <a href="/products">
                 <button class="font-serif flex mx-auto mt-6 text-white bg- border-0 py-2 px-2 custom-color focus:outline-none rounded">
-                  Button
+                  Products
                 </button>
               </a>
             </div>
@@ -96,18 +96,18 @@ export default function section1() {
               <br />
               <br />
               <br />
-              <h3 className="tracking-widest text-white text-1xl font-bold title-font font-serif">
-                Enjoy
+              <h3 className="tracking-widest text-white text-2xl font-bold title-font font-serif">
+                Stardust
               </h3>
               <br />
               <br />
               <h2 className=" text-white  text-2xl font-lg font-bold font-serif mb-4">
-                Comic <br /> With Stardust
+                Media <br /> & Comics
               </h2>
               <p className="leading-relaxed text-base"></p>
               <a href="/products">
                 <button class="font-serif flex mx-auto mt-6 text-white bg- border-0 py-2 px-2 custom-color focus:outline-none rounded">
-                  Button
+                  Products
                 </button>
               </a>
             </div>
@@ -121,18 +121,18 @@ export default function section1() {
               <br />
               <br />
               <br />
-              <h3 className="tracking-widest text-white text-1xl font-bold title-font font-serif">
-                Enjoy
+              <h3 className="tracking-widest text-white text-2xl font-bold title-font font-serif">
+                Stardust
               </h3>
               <br />
               <br />
               <h2 className=" text-white  text-2xl font-lg font-bold font-serif mb-4">
-                Comic <br /> With Stardust
+                Media <br /> & Comics
               </h2>
               <p className="leading-relaxed text-base"></p>
               <a href="/products">
                 <button class="font-serif flex mx-auto mt-6 text-white bg- border-0 py-2 px-2 custom-color focus:outline-none rounded">
-                  Button
+                  Products
                 </button>
               </a>
             </div>
