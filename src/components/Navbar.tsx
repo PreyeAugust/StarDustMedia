@@ -54,9 +54,12 @@ export default function Navbar() {
   }
 
   return (
-    <div className="nav-container font-serif text-white">
+    <div className="nav-container w-full h-20 lg:h-28 font-serif text-white">
       {/* left side  */}
-      <section ref={animationParent} className="nav-content">
+      <section
+        ref={animationParent}
+        className="max-w-screen-2xl h-full mx-auto px-4 flex items-center justify-between"
+      >
         {/* logo */}
         <Image src={logo} alt=" logo" className="logo" />
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
