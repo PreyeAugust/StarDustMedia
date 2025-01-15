@@ -1,13 +1,9 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,8 +20,6 @@ export default function ContactForm() {
       <form ref={form} onSubmit={sendEmail}>
         <input
           className="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-          onChange={(e) => setName(e.target.value)}
-          value={name}
           type="text"
           name="name"
           id="name"
@@ -33,16 +27,12 @@ export default function ContactForm() {
         />
         <input
           className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
           type="email"
           name="email"
           id="email"
           placeholder="Enter Email"
         />
         <textarea
-          onChange={(e) => setMessage(e.target.value)}
-          value={message}
           className="w-full h-32 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 border border-gray-200 focus:outline-none pl-4 mb-10"
           id="message"
           placeholder="Type your message here..."
